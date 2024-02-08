@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>TooDo | Termos e Condições de Uso</title>
 </head>
+
 <body>
   <div id="banner">
     <h1>TooDo</h1>
     <img src="rabisco.png" alt="rabisco">
   </div>
+  
+  
 
   <section id="privacy-policy">
+    <button id="languageButton" onclick="toggleLanguage()">🇺🇸</button>
     <div class="privacy-container">
       <h2>Termos e Condições de Uso</h2>
       <ul>
         <li>
-          <h3>1. Coleta e Uso de Informações Pessoais</h3>
-          <p>1.1 Coleta de Informações</p>
-          <p>O aplicativo TooDo coleta apenas o seu nome e endereço de e-mail para a criação de uma conta de usuário.
-            Essas informações são estritamente necessárias para personalizar sua experiência no aplicativo e fornecer
-            funcionalidades relevantes.</p>
-          <p>1.2 Armazenamento de Informações</p>
-          <p>As informações coletadas pelo aplicativo TooDo são armazenadas com segurança nos servidores do Firebase,
-            fornecidos pela Google. O Firebase é utilizado como um banco de dados na nuvem para armazenar os dados da
-            sua conta e salvar as tarefas criadas por você.</p>
+          <h3><span id="section1Title">1. Coleta e Uso de Informações Pessoais</span></h3>
+          <p><span id="section1Text">1.1 Coleta de Informações</span></p>
+          <p><span id="section1Content">O aplicativo TooDo coleta apenas o seu nome e endereço de e-mail para a criação
+              de uma conta de usuário.
+              Essas informações são estritamente necessárias para personalizar sua experiência no aplicativo e fornecer
+              funcionalidades relevantes.</span></p>
+          <p><span id="section1_2Text">1.2 Armazenamento de Informações</span></p>
+          <p><span id="section1_2Content">As informações coletadas pelo aplicativo TooDo são armazenadas com segurança
+              nos servidores do Firebase,
+              fornecidos pela Google. O Firebase é utilizado como um banco de dados na nuvem para armazenar os dados da
+              sua conta e salvar as tarefas criadas por você.</span></p>
         </li>
 
         <li>
-          <h3>2. Proteção de Dados e Segurança</h3>
-          <p>2.1 Segurança dos Dados</p>
-          <p>Tomamos medidas adequadas para garantir a segurança das informações pessoais coletadas pelo aplicativo
-            TooDo. Implementamos medidas técnicas e organizacionais para proteger seus dados contra acesso não
-            autorizado, uso indevido, alteração ou divulgação não autorizada.</p>
-          <p>2.2 Acesso aos Dados</p>
-          <p>Apenas os funcionários autorizados da TooDo têm acesso às informações pessoais coletadas, e eles são
-            obrigados a manter a confidencialidade dessas informações.</p>
-          <p>2.3 Autenticação Biométrica</p>
-          <p>O aplicativo TooDo utiliza a autenticação biométrica, como impressão digital ou reconhecimento facial, como
-            método padrão de login na sua conta. Isso adiciona uma camada adicional de segurança ao acesso aos seus
-            dados.</p>
+          <h3><span id="section2Title">2. Proteção de Dados e Segurança</span></h3>
+          <p><span id="section2Text">2.1 Segurança dos Dados</span></p>
+          <p><span id="section2Content">Tomamos medidas adequadas para garantir a segurança das informações pessoais
+              coletadas pelo aplicativo
+              TooDo. Implementamos medidas técnicas e organizacionais para proteger seus dados contra acesso não
+              autorizado, uso indevido, alteração ou divulgação não autorizada.</span></p>
+          <p><span id="section2_2Text">2.2 Acesso aos Dados</span></p>
+          <p><span id="section2_2Content">Apenas os funcionários autorizados da TooDo têm acesso às informações pessoais
+              coletadas, e eles são
+              obrigados a manter a confidencialidade dessas informações.</span></p>
+          <p><span id="section2_3Text">2.3 Autenticação Biométrica</span></p>
+          <p><span id="section2_3Content">O aplicativo TooDo utiliza a autenticação biométrica, como impressão digital
+              ou reconhecimento facial, como
+              método padrão de login na sua conta. Isso adiciona uma camada adicional de segurança ao acesso aos seus
+              dados.</span></p>
         </li>
 
         <li>
-          <h3>3. Compartilhamento de Informações</h3>
-          <p>3.1 Compartilhamento Limitado</p>
-          <p>Nós não compartilhamos suas informações pessoais com terceiros, exceto conforme necessário para fornecer os
-            serviços oferecidos pelo aplicativo TooDo ou quando exigido por lei.</p>
+          <h3><span id="section3Title">3. Compartilhamento de Informações</span></h3>
+          <p><span id="section3Text">3.1 Compartilhamento Limitado</span></p>
+          <p><span id="section3Content">Nós não compartilhamos suas informações pessoais com terceiros, exceto conforme
+              necessário para fornecer os
+              serviços oferecidos pelo aplicativo TooDo ou quando exigido por lei.</span></p>
         </li>
 
         <li>
-          <h3>4. Alterações nos Termos e Condições</h3>
-          <p>Reservamo-nos o direito de modificar estes Termos e Condições de Uso a qualquer momento, a nosso critério.
-            Quaisquer alterações serão publicadas no aplicativo TooDo e a data de atualização será indicada no início
-            dos Termos revisados. O uso contínuo do aplicativo após a publicação das alterações constituirá sua
-            aceitação dessas mudanças.</p>
+          <h3><span id="section4Title">4. Alterações nos Termos e Condições</span></h3>
+          <p><span id="section4Content">Reservamo-nos o direito de modificar estes Termos e Condições de Uso a qualquer
+              momento, a nosso critério.
+              Quaisquer alterações serão publicadas no aplicativo TooDo e a data de atualização será indicada no início
+              dos Termos revisados. O uso contínuo do aplicativo após a publicação das alterações constituirá sua
+              aceitação dessas mudanças.</span></p>
         </li>
 
         <li>
-          <h3>5. Contato</h3>
-          <p>Se você tiver alguma dúvida, preocupação ou sugestão sobre estes Termos e Condições de Uso, entre em
-            contato conosco pelo e-mail toodo4473@gmail.com.</p>
-          <p>Ao utilizar o aplicativo TooDo, você reconhece que leu, entendeu e concorda com estes Termos e Condições de
-            Uso.</p>
+          <h3><span id="section5Title">5. Contato</span></h3>
+          <p><span id="section5Content">Se você tiver alguma dúvida, preocupação ou sugestão sobre estes Termos e
+              Condições de Uso, entre em
+              contato conosco pelo e-mail toodo4473@gmail.com.</span></p>
+          <p><span id="section5Agreement">Ao utilizar o aplicativo TooDo, você reconhece que leu, entendeu e concorda
+              com estes Termos e Condições de
+              Uso.</span></p>
         </li>
       </ul>
     </div>
@@ -71,7 +85,9 @@
 
   <footer>
     <p>&copy; 2024 TooDo. Todos os direitos reservados.</p>
-  </footer>  
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -51,6 +51,16 @@ body {
   line-height: 1.5;
 }
 
+#languageButton {
+  background-color: #FFE9E9;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 25px;
+}
+
 footer {
   background-color: #FFE9E9;
   color: #F87675;
